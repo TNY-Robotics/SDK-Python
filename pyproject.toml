@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tny-robotics-sdk"
+version = "0.1.0"
+authors = [
+  { name="TNY-Robotics", email="contact@tny-robotics.com" },
+]
+description = "Python SDK for the TNY-360 robotics platform."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # TODO
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TNY-Robotics/SDK-Python"
+"Bug Tracker" = "https://github.com/TNY-Robotics/SDK-Python/issues"
